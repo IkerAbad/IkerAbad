@@ -10,7 +10,7 @@
 
 ## Quant and finance
 
-- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — European, American, Asian and barrier options in Python. Black-Scholes, Black-76, Monte Carlo, SVI and SSVI surfaces, path-dependent Greeks by likelihood ratio, and a five-day BTC stability study. 142 tests and 93 % branch coverage.
+- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — European, American, Asian and barrier options in Python. Black-Scholes, Black-76, Monte Carlo, SVI and SSVI surfaces, path-dependent Greeks by likelihood ratio, and a five-day BTC stability study. 142 tests and 93 % line coverage with branch checking enabled.
 - **[backtest-engine](https://github.com/IkerAbad/backtest-engine)** — event-driven backtesting with a Rust core and Python strategies. The look-ahead detector finds 780 future reads in the trap strategy.
 - **[execution-simulator](https://github.com/IkerAbad/execution-simulator)** — execution cost for large orders against finite-depth books. Almgren-Chriss cuts risk-adjusted cost 24.91 % against TWAP at λ = 10⁻⁶.
 - **[feature-store](https://github.com/IkerAbad/feature-store)** — incremental financial features with point-in-time correctness and versioned Parquet. 29.74x lower cost per tick than recomputing a 500-tick window.
@@ -35,18 +35,18 @@
 On PyPI:
 
 - [`options-pricer` 1.1.0](https://pypi.org/project/options-pricer/) — `pip install options-pricer`. Published 23 November 2026.
-- [`backtest-engine` 0.1.0](https://pypi.org/project/backtest-engine/) — `pip install backtest-engine`. Published 23 November 2026.
+- [`backtest-engine` 0.2.0](https://pypi.org/project/backtest-engine/) — `pip install backtest-engine`. Published 23 November 2026.
+- [`numlib-linalg` 0.1.0](https://pypi.org/project/numlib-linalg/) — `pip install numlib-linalg`, imported as `numlib`. Repository `numlib`.
+- [`iker-opt-solver` 0.1.0](https://pypi.org/project/iker-opt-solver/) — `pip install iker-opt-solver`. Repository `opt-solver`.
+- [`execution-simulator` 0.1.0](https://pypi.org/project/execution-simulator/) — `pip install execution-simulator`.
+- [`incremental-feature-store` 0.1.0](https://pypi.org/project/incremental-feature-store/) — `pip install incremental-feature-store`. Repository `feature-store`.
 
 Not on PyPI:
 
-- `numlib-linalg` 0.1.0 (repository `numlib`).
-- `feature-store` 0.1.0.
-- `execution-simulator` 0.1.0.
-- `iker-opt-solver` 0.1.0 (repository `opt-solver`).
-- `market-sim` 1.0.0.
-- `game-inventory` 1.0.0.
+- `market-sim` 1.0.0 — the name is too similar to an existing PyPI project.
+- `game-inventory` 1.0.0 — same reason. Distributed from the GitHub release.
 
-The names `numlib` and `opt-solver` are taken on PyPI by unrelated packages, hence the distribution names `numlib-linalg` and `iker-opt-solver`.
+The bare names `numlib`, `opt-solver`, `market-sim` and `game-inventory` are taken or blocked on PyPI, hence the distribution names above.
 
 ## Stack
 
@@ -68,7 +68,7 @@ Last updated: 23 November 2026.
 
 ### Quant y finanzas
 
-- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — opciones europeas, americanas, asiáticas y de barrera en Python. Superficies SVI y SSVI, griegas de trayectoria por likelihood ratio y un estudio de estabilidad de cinco días de BTC. 142 tests y 93 % de cobertura de ramas.
+- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — opciones europeas, americanas, asiáticas y de barrera en Python. Superficies SVI y SSVI, griegas de trayectoria por likelihood ratio y un estudio de estabilidad de cinco días de BTC. 142 tests y 93 % de cobertura de líneas con comprobación de ramas activada.
 - **[backtest-engine](https://github.com/IkerAbad/backtest-engine)** — backtesting event-driven con núcleo en Rust y estrategias en Python. El detector de look-ahead encuentra las 780 lecturas futuras de la estrategia trampa.
 - **[execution-simulator](https://github.com/IkerAbad/execution-simulator)** — coste de ejecución de órdenes grandes contra libros de profundidad finita. Almgren-Chriss baja el coste ajustado por riesgo un 24,91 % frente a TWAP con λ = 10⁻⁶.
 - **[feature-store](https://github.com/IkerAbad/feature-store)** — features financieras incrementales con corrección point-in-time y versiones en Parquet. 29,74 veces menos coste por tick que recalcular la ventana de 500.
@@ -93,17 +93,17 @@ Last updated: 23 November 2026.
 En PyPI:
 
 - [`options-pricer` 1.1.0](https://pypi.org/project/options-pricer/) — `pip install options-pricer`. Publicado el 23 de noviembre de 2026.
-- [`backtest-engine` 0.1.0](https://pypi.org/project/backtest-engine/) — `pip install backtest-engine`. Publicado el 23 de noviembre de 2026.
+- [`backtest-engine` 0.2.0](https://pypi.org/project/backtest-engine/) — `pip install backtest-engine`. Publicado el 23 de noviembre de 2026.
+- [`numlib-linalg` 0.1.0](https://pypi.org/project/numlib-linalg/) — `pip install numlib-linalg`, se importa como `numlib`. Repositorio `numlib`.
+- [`iker-opt-solver` 0.1.0](https://pypi.org/project/iker-opt-solver/) — `pip install iker-opt-solver`. Repositorio `opt-solver`.
+- [`execution-simulator` 0.1.0](https://pypi.org/project/execution-simulator/) — `pip install execution-simulator`.
+- [`incremental-feature-store` 0.1.0](https://pypi.org/project/incremental-feature-store/) — `pip install incremental-feature-store`. Repositorio `feature-store`.
 
 Fuera de PyPI:
 
-- `numlib-linalg` 0.1.0 (repositorio `numlib`).
-- `feature-store` 0.1.0.
-- `execution-simulator` 0.1.0.
-- `iker-opt-solver` 0.1.0 (repositorio `opt-solver`).
-- `market-sim` 1.0.0.
-- `game-inventory` 1.0.0.
+- `market-sim` 1.0.0 — el nombre es demasiado parecido a un proyecto existente en PyPI.
+- `game-inventory` 1.0.0 — por el mismo motivo. Se distribuye desde la release de GitHub.
 
-Los nombres `numlib` y `opt-solver` están ocupados en PyPI por paquetes ajenos, de ahí los nombres de distribución `numlib-linalg` e `iker-opt-solver`.
+Los nombres simples `numlib`, `opt-solver`, `market-sim` y `game-inventory` están ocupados o bloqueados en PyPI, de ahí los nombres de distribución de arriba.
 
 Última actualización: 23 de noviembre de 2026.
