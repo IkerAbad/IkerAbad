@@ -45,6 +45,7 @@ Not on PyPI:
 
 - `market-sim` 1.0.0 — the name is too similar to an existing PyPI project.
 - `game-inventory` 1.0.0 — same reason. Distributed from the GitHub release.
+- `risk-lab` 1.1.0 — release published, PyPI upload pending because the account is rate-limited on new projects.
 
 The bare names `numlib`, `opt-solver`, `market-sim` and `game-inventory` are taken or blocked on PyPI, hence the distribution names above.
 
@@ -103,6 +104,7 @@ Fuera de PyPI:
 
 - `market-sim` 1.0.0 — el nombre es demasiado parecido a un proyecto existente en PyPI.
 - `game-inventory` 1.0.0 — por el mismo motivo. Se distribuye desde la release de GitHub.
+- `risk-lab` 1.1.0 — release publicada, subida a PyPI pendiente porque la cuenta tiene el límite de proyectos nuevos activo.
 
 Los nombres simples `numlib`, `opt-solver`, `market-sim` y `game-inventory` están ocupados o bloqueados en PyPI, de ahí los nombres de distribución de arriba.
 
