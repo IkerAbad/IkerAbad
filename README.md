@@ -8,7 +8,7 @@ simulation and tools that solve a real problem.
 | Project | What it is |
 | --- | --- |
 | **[orderbook](https://github.com/IkerAbad/orderbook)** | Limit order book and matching engine in C++23. Price-time priority, integer prices, O(1) cancel and no allocations on the hot path. Two implementations benchmarked at 138 and 122 ns per event, with a depth visualiser. |
-| **[options-pricer](https://github.com/IkerAbad/options-pricer)** | European, American and path-dependent option pricing in Python. Black-Scholes, Black-76, Monte Carlo, SVI and SSVI surfaces, spread-weighted calibration on real BTC and ETH option snapshots and no-arbitrage diagnostics. 124 tests, 94 % branch coverage, dependency audit in CI. On PyPI as `options-pricer`. |
+| **[options-pricer](https://github.com/IkerAbad/options-pricer)** | European, American and path-dependent option pricing in Python. Black-Scholes, Black-76, Monte Carlo, SVI and SSVI surfaces, continuous barrier monitoring with a Brownian bridge, spread-weighted calibration on real BTC and ETH snapshots and no-arbitrage diagnostics. 127 tests, 94 % branch coverage, dependency audit in CI. On PyPI as `options-pricer`. |
 
 ## Stack
 
@@ -37,5 +37,5 @@ nanosegundos por evento.
 europeas, americanas y dependientes de la trayectoria en Python. Incluye
 Black-Scholes, Black-76, Monte Carlo, superficies SVI y SSVI, calibración
 ponderada por spread sobre snapshots reales de opciones de BTC y ETH, y
-diagnóstico de no arbitraje. 124 tests y 94 % de cobertura de ramas. Publicado en
+diagnóstico de no arbitraje. 127 tests y 94 % de cobertura de ramas. Publicado en
 PyPI como `options-pricer`.
