@@ -34,7 +34,7 @@
 
 On PyPI:
 
-- [`options-pricer` 1.0.0](https://pypi.org/project/options-pricer/) — `pip install options-pricer`. Published 23 November 2026.
+- [`options-pricer` 1.1.0](https://pypi.org/project/options-pricer/) — `pip install options-pricer`. Published 23 November 2026.
 - [`backtest-engine` 0.1.0](https://pypi.org/project/backtest-engine/) — `pip install backtest-engine`. Published 23 November 2026.
 
 Not on PyPI:
@@ -92,7 +92,7 @@ Last updated: 23 November 2026.
 
 En PyPI:
 
-- [`options-pricer` 1.0.0](https://pypi.org/project/options-pricer/) — `pip install options-pricer`. Publicado el 23 de noviembre de 2026.
+- [`options-pricer` 1.1.0](https://pypi.org/project/options-pricer/) — `pip install options-pricer`. Publicado el 23 de noviembre de 2026.
 - [`backtest-engine` 0.1.0](https://pypi.org/project/backtest-engine/) — `pip install backtest-engine`. Publicado el 23 de noviembre de 2026.
 
 Fuera de PyPI:
