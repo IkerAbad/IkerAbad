@@ -10,7 +10,7 @@
 
 ## Quant and finance
 
-- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — European, American, Asian and barrier options in Python. Black-Scholes, Black-76, Monte Carlo, SVI on BTC and ETH snapshots, SSVI on the full BTC surface, and path-dependent Greeks by likelihood ratio. 141 tests and 93 % line coverage.
+- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — European, American, Asian and barrier options in Python. Black-Scholes, Black-76, Monte Carlo, SVI and SSVI surfaces, path-dependent Greeks by likelihood ratio, and a five-day BTC stability study. 142 tests and 93 % branch coverage.
 - **[backtest-engine](https://github.com/IkerAbad/backtest-engine)** — event-driven backtesting with a Rust core and Python strategies. The look-ahead detector finds 780 future reads in the trap strategy.
 - **[execution-simulator](https://github.com/IkerAbad/execution-simulator)** — execution cost for large orders against finite-depth books. Almgren-Chriss cuts risk-adjusted cost 24.91 % against TWAP at λ = 10⁻⁶.
 - **[feature-store](https://github.com/IkerAbad/feature-store)** — incremental financial features with point-in-time correctness and versioned Parquet. 29.74x lower cost per tick than recomputing a 500-tick window.
@@ -68,7 +68,7 @@ Last updated: 23 November 2026.
 
 ### Quant y finanzas
 
-- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — opciones europeas, americanas, asiáticas y de barrera en Python. Black-Scholes, Black-76, Monte Carlo, SVI sobre snapshots de BTC y ETH, SSVI sobre la superficie completa de BTC, y griegas de trayectoria por likelihood ratio. 141 tests y 93 % de cobertura de líneas.
+- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — opciones europeas, americanas, asiáticas y de barrera en Python. Superficies SVI y SSVI, griegas de trayectoria por likelihood ratio y un estudio de estabilidad de cinco días de BTC. 142 tests y 93 % de cobertura de ramas.
 - **[backtest-engine](https://github.com/IkerAbad/backtest-engine)** — backtesting event-driven con núcleo en Rust y estrategias en Python. El detector de look-ahead encuentra las 780 lecturas futuras de la estrategia trampa.
 - **[execution-simulator](https://github.com/IkerAbad/execution-simulator)** — coste de ejecución de órdenes grandes contra libros de profundidad finita. Almgren-Chriss baja el coste ajustado por riesgo un 24,91 % frente a TWAP con λ = 10⁻⁶.
 - **[feature-store](https://github.com/IkerAbad/feature-store)** — features financieras incrementales con corrección point-in-time y versiones en Parquet. 29,74 veces menos coste por tick que recalcular la ventana de 500.
