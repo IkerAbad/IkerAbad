@@ -27,7 +27,7 @@
 
 ## Tools
 
-- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — local panel for the Steam family library, with a packaged executable. 162 common tests, 58 browser tests and 4 platform tests. Latest release v3.0.1.
+- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — local panel for the Steam family library, with a packaged executable. 162 common tests, 58 browser tests and 4 platform tests. Latest release v3.1.0, also installable as the `steam-families-library` distribution.
 - **[game-inventory](https://github.com/IkerAbad/game-inventory)** — game inventory with GB per hour, a deletion plan and history in an Excel workbook. 259 tests.
 
 ## Packages
@@ -46,6 +46,7 @@ Not on PyPI:
 - `market-sim` 1.0.0 — the name is too similar to an existing PyPI project.
 - `game-inventory` 1.0.0 — same reason. Distributed from the GitHub release.
 - `risk-lab` 1.1.0 — release published, PyPI upload pending because the account is rate-limited on new projects.
+- `steam-families-library` 3.1.0 — release published, PyPI upload pending for the same reason.
 
 The bare names `numlib`, `opt-solver`, `market-sim` and `game-inventory` are taken or blocked on PyPI, hence the distribution names above.
 
@@ -86,7 +87,7 @@ Last updated: 23 November 2026.
 
 ### Herramientas
 
-- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — panel local para la biblioteca familiar de Steam, con ejecutable empaquetado. 162 pruebas comunes, 58 de navegador y 4 de plataforma. Última release, v3.0.1.
+- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — panel local para la biblioteca familiar de Steam, con ejecutable empaquetado. 162 pruebas comunes, 58 de navegador y 4 de plataforma. Última release, v3.1.0, también instalable como distribución `steam-families-library`.
 - **[game-inventory](https://github.com/IkerAbad/game-inventory)** — inventario de juegos con GB por hora, plan de borrado e histórico en un libro de Excel. 259 tests.
 
 ### Paquetes
@@ -105,6 +106,7 @@ Fuera de PyPI:
 - `market-sim` 1.0.0 — el nombre es demasiado parecido a un proyecto existente en PyPI.
 - `game-inventory` 1.0.0 — por el mismo motivo. Se distribuye desde la release de GitHub.
 - `risk-lab` 1.1.0 — release publicada, subida a PyPI pendiente porque la cuenta tiene el límite de proyectos nuevos activo.
+- `steam-families-library` 3.1.0 — release publicada, subida a PyPI pendiente por el mismo motivo.
 
 Los nombres simples `numlib`, `opt-solver`, `market-sim` y `game-inventory` están ocupados o bloqueados en PyPI, de ahí los nombres de distribución de arriba.
 
