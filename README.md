@@ -10,25 +10,25 @@
 
 ## Quant and finance
 
-- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — European, American, Asian and barrier options in Python. Black-Scholes, Black-76, Monte Carlo, SVI and SSVI surfaces, path-dependent Greeks by likelihood ratio, and a five-day BTC stability study. 142 tests and 93 % line coverage with branch checking enabled.
-- **[backtest-engine](https://github.com/IkerAbad/backtest-engine)** — event-driven backtesting with a Rust core and Python strategies. The look-ahead detector finds 780 future reads in the trap strategy.
-- **[execution-simulator](https://github.com/IkerAbad/execution-simulator)** — execution cost for large orders against finite-depth books. Almgren-Chriss cuts risk-adjusted cost 24.91 % against TWAP at λ = 10⁻⁶.
-- **[feature-store](https://github.com/IkerAbad/feature-store)** — incremental financial features with point-in-time correctness and versioned Parquet. 29.74x lower cost per tick than recomputing a 500-tick window.
-- **[market-sim](https://github.com/IkerAbad/market-sim)** — agent-based market simulator. Kurtosis 5.488 and four-sigma tails 32.21x more frequent than normal, over 100,000 observations.
+- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — European, American, Asian and barrier options in Python. Black-Scholes, Black-76, Monte Carlo, SVI and SSVI surfaces, path-dependent Greeks by likelihood ratio, and a five-day BTC stability study. 142 tests and 93 % line coverage with branch checking enabled. · [PyPI](https://pypi.org/project/options-pricer/)
+- **[backtest-engine](https://github.com/IkerAbad/backtest-engine)** — event-driven backtesting with a Rust core and Python strategies. The look-ahead detector finds 780 future reads in the trap strategy. · [PyPI](https://pypi.org/project/backtest-engine/)
+- **[execution-simulator](https://github.com/IkerAbad/execution-simulator)** — execution cost for large orders against finite-depth books. Almgren-Chriss cuts risk-adjusted cost 24.91 % against TWAP at λ = 10⁻⁶. · [PyPI](https://pypi.org/project/execution-simulator/)
+- **[feature-store](https://github.com/IkerAbad/feature-store)** — incremental financial features with point-in-time correctness and versioned Parquet. 29.74x lower cost per tick than recomputing a 500-tick window. · [PyPI](https://pypi.org/project/incremental-feature-store/)
+- **[market-sim](https://github.com/IkerAbad/market-sim)** — agent-based market simulator. Kurtosis 5.488 and four-sigma tails 32.21x more frequent than normal, over 100,000 observations. · [PyPI](https://pypi.org/project/abm-market/)
 - **[market-data-service](https://github.com/IkerAbad/market-data-service)** — Binance spot ingestion into Parquet with a FastAPI API and a dashboard. Recovers the 5 trades lost in a 5-second cut.
 - **[wasm-pricer](https://github.com/IkerAbad/wasm-pricer)** — the demo above in repository form: eight Greeks and an SVI surface on canvas. 33 KB binary, 6.3-8.0 ms median recalculation.
-- **[risk-lab](https://github.com/IkerAbad/risk-lab)** — one-day VaR and CVaR with a rolling backtest. 120 breaches in 2,012 forecasts with the 95 % historical VaR.
+- **[risk-lab](https://github.com/IkerAbad/risk-lab)** — one-day VaR and CVaR with a rolling backtest. 120 breaches in 2,012 forecasts with the 95 % historical VaR. · [PyPI](https://pypi.org/project/var-cvar/)
 
 ## Mathematics and algorithms
 
-- **[numlib](https://github.com/IkerAbad/numlib)** — numerical linear algebra from scratch in Python: LU, QR, SVD, eigenvalues and least squares. Largest relative eigenvalue error 2.47e-15 against NumPy.
+- **[numlib](https://github.com/IkerAbad/numlib)** — numerical linear algebra from scratch in Python: LU, QR, SVD, eigenvalues and least squares. Largest relative eigenvalue error 2.47e-15 against NumPy. · [PyPI](https://pypi.org/project/numlib-linalg/)
 - **[opt-solver](https://github.com/IkerAbad/opt-solver)** — simplex with Bland's rule, Mehrotra interior point and convex QP. 36 comparisons against HiGHS, largest objective gap 1.16e-9.
 - **[crypto-lab](https://github.com/IkerAbad/crypto-lab)** — elliptic-curve cryptography from scratch: secp256k1, RFC 6979 ECDSA and BIP32. 476 Wycheproof cases run in CI, 75 vendored (30 valid and 45 invalid).
 
 ## Tools
 
-- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — local panel for the Steam family library, with a packaged executable. 162 common tests, 58 browser tests and 4 platform tests. Latest release v3.1.0, also installable as the `steam-families-library` distribution.
-- **[game-inventory](https://github.com/IkerAbad/game-inventory)** — game inventory with GB per hour, a deletion plan and history in an Excel workbook. 259 tests.
+- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — local panel for the Steam family library, with a packaged executable. 162 common tests, 58 browser tests and 4 platform tests. Latest release v3.1.0, also installable as the `steam-families-library` distribution. · [PyPI](https://pypi.org/project/steam-families-library/)
+- **[game-inventory](https://github.com/IkerAbad/game-inventory)** — game inventory with GB per hour, a deletion plan and history in an Excel workbook. 259 tests. · [PyPI](https://pypi.org/project/gamesize/)
 
 ## Packages
 
@@ -46,10 +46,6 @@ On PyPI:
 
 The bare names `numlib`, `opt-solver`, `market-sim` and `game-inventory` are taken or blocked on PyPI, hence the distribution names above.
 
-## Stack
-
-C++23 · Rust · Python · Kotlin · TypeScript · Java · C#
-
 Last updated: 25 November 2026.
 
 ---
@@ -66,25 +62,25 @@ Last updated: 25 November 2026.
 
 ### Quant y finanzas
 
-- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — opciones europeas, americanas, asiáticas y de barrera en Python. Superficies SVI y SSVI, griegas de trayectoria por likelihood ratio y un estudio de estabilidad de cinco días de BTC. 142 tests y 93 % de cobertura de líneas con comprobación de ramas activada.
-- **[backtest-engine](https://github.com/IkerAbad/backtest-engine)** — backtesting event-driven con núcleo en Rust y estrategias en Python. El detector de look-ahead encuentra las 780 lecturas futuras de la estrategia trampa.
-- **[execution-simulator](https://github.com/IkerAbad/execution-simulator)** — coste de ejecución de órdenes grandes contra libros de profundidad finita. Almgren-Chriss baja el coste ajustado por riesgo un 24,91 % frente a TWAP con λ = 10⁻⁶.
-- **[feature-store](https://github.com/IkerAbad/feature-store)** — features financieras incrementales con corrección point-in-time y versiones en Parquet. 29,74 veces menos coste por tick que recalcular la ventana de 500.
-- **[market-sim](https://github.com/IkerAbad/market-sim)** — simulador de mercado basado en agentes. Curtosis de 5,488 y colas de cuatro sigmas 32,21 veces más frecuentes que en una normal, sobre 100.000 observaciones.
+- **[options-pricer](https://github.com/IkerAbad/options-pricer)** — opciones europeas, americanas, asiáticas y de barrera en Python. Superficies SVI y SSVI, griegas de trayectoria por likelihood ratio y un estudio de estabilidad de cinco días de BTC. 142 tests y 93 % de cobertura de líneas con comprobación de ramas activada. · [PyPI](https://pypi.org/project/options-pricer/)
+- **[backtest-engine](https://github.com/IkerAbad/backtest-engine)** — backtesting event-driven con núcleo en Rust y estrategias en Python. El detector de look-ahead encuentra las 780 lecturas futuras de la estrategia trampa. · [PyPI](https://pypi.org/project/backtest-engine/)
+- **[execution-simulator](https://github.com/IkerAbad/execution-simulator)** — coste de ejecución de órdenes grandes contra libros de profundidad finita. Almgren-Chriss baja el coste ajustado por riesgo un 24,91 % frente a TWAP con λ = 10⁻⁶. · [PyPI](https://pypi.org/project/execution-simulator/)
+- **[feature-store](https://github.com/IkerAbad/feature-store)** — features financieras incrementales con corrección point-in-time y versiones en Parquet. 29,74 veces menos coste por tick que recalcular la ventana de 500. · [PyPI](https://pypi.org/project/incremental-feature-store/)
+- **[market-sim](https://github.com/IkerAbad/market-sim)** — simulador de mercado basado en agentes. Curtosis de 5,488 y colas de cuatro sigmas 32,21 veces más frecuentes que en una normal, sobre 100.000 observaciones. · [PyPI](https://pypi.org/project/abm-market/)
 - **[market-data-service](https://github.com/IkerAbad/market-data-service)** — ingesta de Binance a Parquet con API FastAPI y dashboard. Recupera los 5 trades perdidos en un corte de 5 segundos.
 - **[wasm-pricer](https://github.com/IkerAbad/wasm-pricer)** — la demo de arriba en forma de repositorio: ocho griegas y una superficie SVI en canvas. Binario de 33 KB, recálculo mediano de 6,3-8,0 ms.
-- **[risk-lab](https://github.com/IkerAbad/risk-lab)** — VaR y CVaR a un día con backtest rodante. 120 excesos en 2.012 previsiones con el VaR histórico al 95 %.
+- **[risk-lab](https://github.com/IkerAbad/risk-lab)** — VaR y CVaR a un día con backtest rodante. 120 excesos en 2.012 previsiones con el VaR histórico al 95 %. · [PyPI](https://pypi.org/project/var-cvar/)
 
 ### Matemáticas y algoritmos
 
-- **[numlib](https://github.com/IkerAbad/numlib)** — álgebra lineal numérica desde cero en Python: LU, QR, SVD, autovalores y mínimos cuadrados. Error relativo máximo de autovalores de 2,47e-15 frente a NumPy.
+- **[numlib](https://github.com/IkerAbad/numlib)** — álgebra lineal numérica desde cero en Python: LU, QR, SVD, autovalores y mínimos cuadrados. Error relativo máximo de autovalores de 2,47e-15 frente a NumPy. · [PyPI](https://pypi.org/project/numlib-linalg/)
 - **[opt-solver](https://github.com/IkerAbad/opt-solver)** — simplex con la regla de Bland, punto interior de Mehrotra y QP convexo. 36 comparaciones contra HiGHS, brecha máxima de 1,16e-9 en el objetivo.
 - **[crypto-lab](https://github.com/IkerAbad/crypto-lab)** — criptografía de curva elíptica desde cero: secp256k1, ECDSA con RFC 6979 y BIP32. 476 casos de Wycheproof ejecutados en CI, 75 vendorizados (30 válidos y 45 inválidos).
 
 ### Herramientas
 
-- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — panel local para la biblioteca familiar de Steam, con ejecutable empaquetado. 162 pruebas comunes, 58 de navegador y 4 de plataforma. Última release, v3.1.0, también instalable como distribución `steam-families-library`.
-- **[game-inventory](https://github.com/IkerAbad/game-inventory)** — inventario de juegos con GB por hora, plan de borrado e histórico en un libro de Excel. 259 tests.
+- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — panel local para la biblioteca familiar de Steam, con ejecutable empaquetado. 162 pruebas comunes, 58 de navegador y 4 de plataforma. Última release, v3.1.0, también instalable como distribución `steam-families-library`. · [PyPI](https://pypi.org/project/steam-families-library/)
+- **[game-inventory](https://github.com/IkerAbad/game-inventory)** — inventario de juegos con GB por hora, plan de borrado e histórico en un libro de Excel. 259 tests. · [PyPI](https://pypi.org/project/gamesize/)
 
 ### Paquetes
 
