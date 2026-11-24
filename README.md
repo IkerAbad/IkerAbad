@@ -37,7 +37,6 @@ On PyPI:
 - [`options-pricer` 1.1.0](https://pypi.org/project/options-pricer/) — `pip install options-pricer`. Published 23 November 2026.
 - [`backtest-engine` 0.2.0](https://pypi.org/project/backtest-engine/) — `pip install backtest-engine`. Published 23 November 2026.
 - [`numlib-linalg` 0.1.0](https://pypi.org/project/numlib-linalg/) — `pip install numlib-linalg`, imported as `numlib`. Repository `numlib`.
-- [`iker-opt-solver` 0.1.0](https://pypi.org/project/iker-opt-solver/) — `pip install iker-opt-solver`. Repository `opt-solver`.
 - [`execution-simulator` 0.1.0](https://pypi.org/project/execution-simulator/) — `pip install execution-simulator`.
 - [`incremental-feature-store` 0.1.0](https://pypi.org/project/incremental-feature-store/) — `pip install incremental-feature-store`. Repository `feature-store`.
 - [`var-cvar` 1.1.2](https://pypi.org/project/var-cvar/) — `pip install var-cvar`. Repository `risk-lab`.
@@ -94,7 +93,6 @@ En PyPI:
 - [`options-pricer` 1.1.0](https://pypi.org/project/options-pricer/) — `pip install options-pricer`. Publicado el 23 de noviembre de 2026.
 - [`backtest-engine` 0.2.0](https://pypi.org/project/backtest-engine/) — `pip install backtest-engine`. Publicado el 23 de noviembre de 2026.
 - [`numlib-linalg` 0.1.0](https://pypi.org/project/numlib-linalg/) — `pip install numlib-linalg`, se importa como `numlib`. Repositorio `numlib`.
-- [`iker-opt-solver` 0.1.0](https://pypi.org/project/iker-opt-solver/) — `pip install iker-opt-solver`. Repositorio `opt-solver`.
 - [`execution-simulator` 0.1.0](https://pypi.org/project/execution-simulator/) — `pip install execution-simulator`.
 - [`incremental-feature-store` 0.1.0](https://pypi.org/project/incremental-feature-store/) — `pip install incremental-feature-store`. Repositorio `feature-store`.
 - [`var-cvar` 1.1.2](https://pypi.org/project/var-cvar/) — `pip install var-cvar`. Repositorio `risk-lab`.
