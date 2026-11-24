@@ -4,9 +4,9 @@
 
 ## Systems and performance
 
-- **[db-engine](https://github.com/IkerAbad/db-engine)** — SQL engine in C++23 with 4 KB pages, a B+tree, a write-ahead log and crash recovery. 25 unit tests and 44 crash scenarios.
-- **[orderbook](https://github.com/IkerAbad/orderbook)** — limit order book and matching engine in C++23 with price-time priority. 51.2 ns per event in the pooled implementation, 3.1x the map version.
-- **[sat-solver](https://github.com/IkerAbad/sat-solver)** — CDCL SAT solver in C++23. 3.479 s on 14 instances against MiniSat 2.2.1 at 3.516 s.
+- **[db-engine](https://github.com/IkerAbad/db-engine)** — SQL engine in C++23 with 4 KB pages, a B+tree, a write-ahead log and crash recovery. 32 unit tests and 44 crash scenarios.
+- **[orderbook](https://github.com/IkerAbad/orderbook)** — limit order book and matching engine in C++23 with price-time priority. 74.6 ns per event in the pooled implementation, 2.4x the map version.
+- **[sat-solver](https://github.com/IkerAbad/sat-solver)** — CDCL SAT solver in C++23. 2.674 s on 14 instances against MiniSat 2.2.1 at 3.053 s.
 
 ## Quant and finance
 
@@ -51,7 +51,7 @@ The bare names `numlib`, `opt-solver`, `market-sim` and `game-inventory` are tak
 
 C++23 · Rust · Python · Kotlin · TypeScript · Java · C#
 
-Last updated: 23 November 2026.
+Last updated: 25 November 2026.
 
 ---
 
@@ -61,9 +61,9 @@ Last updated: 23 November 2026.
 
 ### Sistemas y rendimiento
 
-- **[db-engine](https://github.com/IkerAbad/db-engine)** — motor SQL en C++23 con páginas de 4 KB, B+tree, WAL y recuperación tras caídas. 25 tests unitarios y 44 escenarios de caída.
-- **[orderbook](https://github.com/IkerAbad/orderbook)** — libro de órdenes y motor de matching en C++23 con prioridad precio-tiempo. 51,2 ns por evento en la implementación con pool, 3,1 veces la del mapa.
-- **[sat-solver](https://github.com/IkerAbad/sat-solver)** — solver SAT CDCL en C++23. 3,479 s en 14 instancias frente a 3,516 s de MiniSat 2.2.1.
+- **[db-engine](https://github.com/IkerAbad/db-engine)** — motor SQL en C++23 con páginas de 4 KB, B+tree, WAL y recuperación tras caídas. 32 tests unitarios y 44 escenarios de caída.
+- **[orderbook](https://github.com/IkerAbad/orderbook)** — libro de órdenes y motor de matching en C++23 con prioridad precio-tiempo. 74,6 ns por evento en la implementación con pool, 2,4 veces la del mapa.
+- **[sat-solver](https://github.com/IkerAbad/sat-solver)** — solver SAT CDCL en C++23. 2,674 s en 14 instancias frente a 3,053 s de MiniSat 2.2.1.
 
 ### Quant y finanzas
 
@@ -104,4 +104,4 @@ En PyPI:
 
 Los nombres simples `numlib`, `opt-solver`, `market-sim` y `game-inventory` están ocupados o bloqueados en PyPI, de ahí los nombres de distribución de arriba.
 
-Última actualización: 23 de noviembre de 2026.
+Última actualización: 25 de noviembre de 2026.
