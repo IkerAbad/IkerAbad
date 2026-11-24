@@ -43,10 +43,7 @@ On PyPI:
 - [`var-cvar` 1.1.2](https://pypi.org/project/var-cvar/) — `pip install var-cvar`. Repository `risk-lab`.
 - [`abm-market` 1.0.1](https://pypi.org/project/abm-market/) — `pip install abm-market`. Repository `market-sim`, command `market-sim`.
 - [`gamesize` 1.0.1](https://pypi.org/project/gamesize/) — `pip install gamesize`. Repository `game-inventory`, command `game-inventory`.
-
-Not on PyPI:
-
-- `steam-families-library` 3.1.0 — release published, PyPI upload pending on the account's new-project limit.
+- [`steam-families-library` 3.1.0](https://pypi.org/project/steam-families-library/) — `pip install steam-families-library`, command `steam-families`.
 
 The bare names `numlib`, `opt-solver`, `market-sim` and `game-inventory` are taken or blocked on PyPI, hence the distribution names above.
 
@@ -103,10 +100,7 @@ En PyPI:
 - [`var-cvar` 1.1.2](https://pypi.org/project/var-cvar/) — `pip install var-cvar`. Repositorio `risk-lab`.
 - [`abm-market` 1.0.1](https://pypi.org/project/abm-market/) — `pip install abm-market`. Repositorio `market-sim`, comando `market-sim`.
 - [`gamesize` 1.0.1](https://pypi.org/project/gamesize/) — `pip install gamesize`. Repositorio `game-inventory`, comando `game-inventory`.
-
-Fuera de PyPI:
-
-- `steam-families-library` 3.1.0 — release publicada, subida a PyPI pendiente del límite de proyectos nuevos de la cuenta.
+- [`steam-families-library` 3.1.0](https://pypi.org/project/steam-families-library/) — `pip install steam-families-library`, comando `steam-families`.
 
 Los nombres simples `numlib`, `opt-solver`, `market-sim` y `game-inventory` están ocupados o bloqueados en PyPI, de ahí los nombres de distribución de arriba.
 
