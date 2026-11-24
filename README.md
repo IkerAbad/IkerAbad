@@ -40,12 +40,12 @@ On PyPI:
 - [`iker-opt-solver` 0.1.0](https://pypi.org/project/iker-opt-solver/) — `pip install iker-opt-solver`. Repository `opt-solver`.
 - [`execution-simulator` 0.1.0](https://pypi.org/project/execution-simulator/) — `pip install execution-simulator`.
 - [`incremental-feature-store` 0.1.0](https://pypi.org/project/incremental-feature-store/) — `pip install incremental-feature-store`. Repository `feature-store`.
+- [`var-cvar` 1.1.2](https://pypi.org/project/var-cvar/) — `pip install var-cvar`. Repository `risk-lab`.
 
 Not on PyPI:
 
 - `market-sim` 1.0.0 — the name is too similar to an existing PyPI project.
 - `game-inventory` 1.0.0 — same reason. Distributed from the GitHub release.
-- `risk-lab` 1.1.0 — release published, PyPI upload pending because the account is rate-limited on new projects.
 - `steam-families-library` 3.1.0 — release published, PyPI upload pending for the same reason.
 
 The bare names `numlib`, `opt-solver`, `market-sim` and `game-inventory` are taken or blocked on PyPI, hence the distribution names above.
@@ -100,12 +100,12 @@ En PyPI:
 - [`iker-opt-solver` 0.1.0](https://pypi.org/project/iker-opt-solver/) — `pip install iker-opt-solver`. Repositorio `opt-solver`.
 - [`execution-simulator` 0.1.0](https://pypi.org/project/execution-simulator/) — `pip install execution-simulator`.
 - [`incremental-feature-store` 0.1.0](https://pypi.org/project/incremental-feature-store/) — `pip install incremental-feature-store`. Repositorio `feature-store`.
+- [`var-cvar` 1.1.2](https://pypi.org/project/var-cvar/) — `pip install var-cvar`. Repositorio `risk-lab`.
 
 Fuera de PyPI:
 
 - `market-sim` 1.0.0 — el nombre es demasiado parecido a un proyecto existente en PyPI.
 - `game-inventory` 1.0.0 — por el mismo motivo. Se distribuye desde la release de GitHub.
-- `risk-lab` 1.1.0 — release publicada, subida a PyPI pendiente porque la cuenta tiene el límite de proyectos nuevos activo.
 - `steam-families-library` 3.1.0 — release publicada, subida a PyPI pendiente por el mismo motivo.
 
 Los nombres simples `numlib`, `opt-solver`, `market-sim` y `game-inventory` están ocupados o bloqueados en PyPI, de ahí los nombres de distribución de arriba.
