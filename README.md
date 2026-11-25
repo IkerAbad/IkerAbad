@@ -22,12 +22,12 @@
 ## Mathematics and algorithms
 
 - **[numlib](https://github.com/IkerAbad/numlib)** — numerical linear algebra from scratch in Python: LU, QR, SVD, eigenvalues and least squares. Largest relative eigenvalue error 2.47e-15 against NumPy. · [PyPI](https://pypi.org/project/numlib-linalg/)
-- **[opt-solver](https://github.com/IkerAbad/opt-solver)** — simplex with Bland's rule, Mehrotra interior point and convex QP. 36 comparisons against HiGHS, largest objective gap 1.16e-9.
+- **[opt-solver](https://github.com/IkerAbad/opt-solver)** — simplex with Bland's rule, Mehrotra interior point and convex QP. 36 comparisons against HiGHS, largest objective gap 1.16e-9. · [PyPI](https://pypi.org/project/optkit/)
 - **[crypto-lab](https://github.com/IkerAbad/crypto-lab)** — elliptic-curve cryptography from scratch: secp256k1, RFC 6979 ECDSA and BIP32. 476 Wycheproof cases run in CI, 75 vendored (30 valid and 45 invalid).
 
 ## Tools
 
-- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — local panel for the Steam family library, with a packaged executable. 162 common tests, 58 browser tests and 4 platform tests. Latest release v3.1.0, also installable as the `steam-families-library` distribution. · [PyPI](https://pypi.org/project/steam-families-library/)
+- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — local panel for the Steam family library, with a packaged executable. 162 common tests, 58 browser tests and 4 platform tests. Latest release v3.1.2, also installable as the `steam-families-library` distribution. · [PyPI](https://pypi.org/project/steam-families-library/)
 - **[game-inventory](https://github.com/IkerAbad/game-inventory)** — game inventory with GB per hour, a deletion plan and history in an Excel workbook. 259 tests. · [PyPI](https://pypi.org/project/gamesize/)
 
 ## Packages
@@ -41,7 +41,8 @@ On PyPI:
 - [`incremental-feature-store` 0.1.0](https://pypi.org/project/incremental-feature-store/) — `pip install incremental-feature-store`. Repository `feature-store`.
 - [`var-cvar` 1.1.2](https://pypi.org/project/var-cvar/) — `pip install var-cvar`. Repository `risk-lab`.
 - [`abm-market` 1.0.1](https://pypi.org/project/abm-market/) — `pip install abm-market`. Repository `market-sim`, command `market-sim`.
-- [`gamesize` 1.0.1](https://pypi.org/project/gamesize/) — `pip install gamesize`. Repository `game-inventory`, command `game-inventory`.
+- [`gamesize` 1.0.2](https://pypi.org/project/gamesize/) — `pip install gamesize`. Repository `game-inventory`, command `game-inventory`.
+- [`optkit` 0.1.1](https://pypi.org/project/optkit/) — `pip install optkit`. Repository `opt-solver`.
 - [`steam-families-library` 3.1.0](https://pypi.org/project/steam-families-library/) — `pip install steam-families-library`, command `steam-families`.
 
 The bare names `numlib`, `opt-solver`, `market-sim` and `game-inventory` are taken or blocked on PyPI, hence the distribution names above.
@@ -74,12 +75,12 @@ Last updated: 25 November 2026.
 ### Matemáticas y algoritmos
 
 - **[numlib](https://github.com/IkerAbad/numlib)** — álgebra lineal numérica desde cero en Python: LU, QR, SVD, autovalores y mínimos cuadrados. Error relativo máximo de autovalores de 2,47e-15 frente a NumPy. · [PyPI](https://pypi.org/project/numlib-linalg/)
-- **[opt-solver](https://github.com/IkerAbad/opt-solver)** — simplex con la regla de Bland, punto interior de Mehrotra y QP convexo. 36 comparaciones contra HiGHS, brecha máxima de 1,16e-9 en el objetivo.
+- **[opt-solver](https://github.com/IkerAbad/opt-solver)** — simplex con la regla de Bland, punto interior de Mehrotra y QP convexo. 36 comparaciones contra HiGHS, brecha máxima de 1,16e-9 en el objetivo. · [PyPI](https://pypi.org/project/optkit/)
 - **[crypto-lab](https://github.com/IkerAbad/crypto-lab)** — criptografía de curva elíptica desde cero: secp256k1, ECDSA con RFC 6979 y BIP32. 476 casos de Wycheproof ejecutados en CI, 75 vendorizados (30 válidos y 45 inválidos).
 
 ### Herramientas
 
-- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — panel local para la biblioteca familiar de Steam, con ejecutable empaquetado. 162 pruebas comunes, 58 de navegador y 4 de plataforma. Última release, v3.1.0, también instalable como distribución `steam-families-library`. · [PyPI](https://pypi.org/project/steam-families-library/)
+- **[steam-family-library](https://github.com/IkerAbad/steam-family-library)** — panel local para la biblioteca familiar de Steam, con ejecutable empaquetado. 162 pruebas comunes, 58 de navegador y 4 de plataforma. Última release, v3.1.2, también instalable como distribución `steam-families-library`. · [PyPI](https://pypi.org/project/steam-families-library/)
 - **[game-inventory](https://github.com/IkerAbad/game-inventory)** — inventario de juegos con GB por hora, plan de borrado e histórico en un libro de Excel. 259 tests. · [PyPI](https://pypi.org/project/gamesize/)
 
 ### Paquetes
@@ -93,7 +94,8 @@ En PyPI:
 - [`incremental-feature-store` 0.1.0](https://pypi.org/project/incremental-feature-store/) — `pip install incremental-feature-store`. Repositorio `feature-store`.
 - [`var-cvar` 1.1.2](https://pypi.org/project/var-cvar/) — `pip install var-cvar`. Repositorio `risk-lab`.
 - [`abm-market` 1.0.1](https://pypi.org/project/abm-market/) — `pip install abm-market`. Repositorio `market-sim`, comando `market-sim`.
-- [`gamesize` 1.0.1](https://pypi.org/project/gamesize/) — `pip install gamesize`. Repositorio `game-inventory`, comando `game-inventory`.
+- [`gamesize` 1.0.2](https://pypi.org/project/gamesize/) — `pip install gamesize`. Repositorio `game-inventory`, comando `game-inventory`.
+- [`optkit` 0.1.1](https://pypi.org/project/optkit/) — `pip install optkit`. Repositorio `opt-solver`.
 - [`steam-families-library` 3.1.0](https://pypi.org/project/steam-families-library/) — `pip install steam-families-library`, comando `steam-families`.
 
 Los nombres simples `numlib`, `opt-solver`, `market-sim` y `game-inventory` están ocupados o bloqueados en PyPI, de ahí los nombres de distribución de arriba.
