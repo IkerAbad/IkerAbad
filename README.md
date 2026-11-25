@@ -2,6 +2,8 @@
 
 I build systems and research tools where the maths matters: market microstructure, numerical methods and data pipelines. Everything below is public, tested and reproducible.
 
+I study Computer Engineering at Universidad de La Rioja, with a parallel track in mathematics.
+
 **[Live demo: wasm-pricer](https://ikerabad.github.io/wasm-pricer/)** — European options, eight Greeks and an SVI surface in Rust and WebAssembly. 33 KB binary, 6.3-8.0 ms median recalculation. Nothing to install.
 
 ## Systems and performance
@@ -58,6 +60,8 @@ Last updated: 25 November 2026.
 ## Español
 
 Construyo sistemas y herramientas de investigación donde las matemáticas importan: microestructura de mercado, métodos numéricos y pipelines de datos. Todo lo de abajo es público, está probado y se puede reproducir.
+
+Estudio Ingeniería Informática en la Universidad de La Rioja, con un itinerario paralelo de matemáticas.
 
 **[Demo en vivo: wasm-pricer](https://ikerabad.github.io/wasm-pricer/)** — opciones europeas, ocho griegas y una superficie SVI en Rust y WebAssembly. Binario de 33 KB, recálculo mediano de 6,3-8,0 ms. Sin instalar nada.
 
