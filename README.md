@@ -1,5 +1,7 @@
 # Iker Abad
 
+I build systems and research tools where the maths matters: market microstructure, numerical methods and data pipelines. Everything below is public, tested and reproducible.
+
 **[Live demo: wasm-pricer](https://ikerabad.github.io/wasm-pricer/)** — European options, eight Greeks and an SVI surface in Rust and WebAssembly. 33 KB binary, 6.3-8.0 ms median recalculation. Nothing to install.
 
 ## Systems and performance
@@ -32,26 +34,30 @@
 
 ## Packages
 
-On PyPI:
+Every project with a package links to it above. To install all of them:
 
-- [`options-pricer` 1.1.0](https://pypi.org/project/options-pricer/) — `pip install options-pricer`. Published 23 November 2026.
-- [`backtest-engine` 0.2.0](https://pypi.org/project/backtest-engine/) — `pip install backtest-engine`. Published 23 November 2026.
-- [`numlib-linalg` 0.1.0](https://pypi.org/project/numlib-linalg/) — `pip install numlib-linalg`, imported as `numlib`. Repository `numlib`.
-- [`execution-simulator` 0.1.0](https://pypi.org/project/execution-simulator/) — `pip install execution-simulator`.
-- [`incremental-feature-store` 0.1.0](https://pypi.org/project/incremental-feature-store/) — `pip install incremental-feature-store`. Repository `feature-store`.
-- [`var-cvar` 1.1.2](https://pypi.org/project/var-cvar/) — `pip install var-cvar`. Repository `risk-lab`.
-- [`abm-market` 1.0.1](https://pypi.org/project/abm-market/) — `pip install abm-market`. Repository `market-sim`, command `market-sim`.
-- [`gamesize` 1.0.2](https://pypi.org/project/gamesize/) — `pip install gamesize`. Repository `game-inventory`, command `game-inventory`.
-- [`optkit` 0.1.1](https://pypi.org/project/optkit/) — `pip install optkit`. Repository `opt-solver`.
-- [`steam-families-library` 3.1.0](https://pypi.org/project/steam-families-library/) — `pip install steam-families-library`, command `steam-families`.
+```
+pip install options-pricer
+pip install backtest-engine
+pip install numlib-linalg
+pip install execution-simulator
+pip install incremental-feature-store
+pip install var-cvar
+pip install abm-market
+pip install gamesize
+pip install optkit
+pip install steam-families-library
+```
 
-The bare names `numlib`, `opt-solver`, `market-sim` and `game-inventory` are taken or blocked on PyPI, hence the distribution names above.
+Several names differ from their repository because the plain names were taken or blocked on PyPI: `numlib-linalg`, `incremental-feature-store`, `var-cvar`, `abm-market`, `gamesize`, `optkit` and `steam-families-library`. The import package and the command keep their original names.
 
 Last updated: 25 November 2026.
 
 ---
 
 ## Español
+
+Construyo sistemas y herramientas de investigación donde las matemáticas importan: microestructura de mercado, métodos numéricos y pipelines de datos. Todo lo de abajo es público, está probado y se puede reproducir.
 
 **[Demo en vivo: wasm-pricer](https://ikerabad.github.io/wasm-pricer/)** — opciones europeas, ocho griegas y una superficie SVI en Rust y WebAssembly. Binario de 33 KB, recálculo mediano de 6,3-8,0 ms. Sin instalar nada.
 
@@ -85,19 +91,21 @@ Last updated: 25 November 2026.
 
 ### Paquetes
 
-En PyPI:
+Cada proyecto con paquete lo enlaza arriba. Para instalarlos todos:
 
-- [`options-pricer` 1.1.0](https://pypi.org/project/options-pricer/) — `pip install options-pricer`. Publicado el 23 de noviembre de 2026.
-- [`backtest-engine` 0.2.0](https://pypi.org/project/backtest-engine/) — `pip install backtest-engine`. Publicado el 23 de noviembre de 2026.
-- [`numlib-linalg` 0.1.0](https://pypi.org/project/numlib-linalg/) — `pip install numlib-linalg`, se importa como `numlib`. Repositorio `numlib`.
-- [`execution-simulator` 0.1.0](https://pypi.org/project/execution-simulator/) — `pip install execution-simulator`.
-- [`incremental-feature-store` 0.1.0](https://pypi.org/project/incremental-feature-store/) — `pip install incremental-feature-store`. Repositorio `feature-store`.
-- [`var-cvar` 1.1.2](https://pypi.org/project/var-cvar/) — `pip install var-cvar`. Repositorio `risk-lab`.
-- [`abm-market` 1.0.1](https://pypi.org/project/abm-market/) — `pip install abm-market`. Repositorio `market-sim`, comando `market-sim`.
-- [`gamesize` 1.0.2](https://pypi.org/project/gamesize/) — `pip install gamesize`. Repositorio `game-inventory`, comando `game-inventory`.
-- [`optkit` 0.1.1](https://pypi.org/project/optkit/) — `pip install optkit`. Repositorio `opt-solver`.
-- [`steam-families-library` 3.1.0](https://pypi.org/project/steam-families-library/) — `pip install steam-families-library`, comando `steam-families`.
+```
+pip install options-pricer
+pip install backtest-engine
+pip install numlib-linalg
+pip install execution-simulator
+pip install incremental-feature-store
+pip install var-cvar
+pip install abm-market
+pip install gamesize
+pip install optkit
+pip install steam-families-library
+```
 
-Los nombres simples `numlib`, `opt-solver`, `market-sim` y `game-inventory` están ocupados o bloqueados en PyPI, de ahí los nombres de distribución de arriba.
+Varios nombres no coinciden con su repositorio porque los nombres simples estaban ocupados o bloqueados en PyPI: `numlib-linalg`, `incremental-feature-store`, `var-cvar`, `abm-market`, `gamesize`, `optkit` y `steam-families-library`. El paquete que se importa y el comando conservan su nombre original.
 
 Última actualización: 25 de noviembre de 2026.
