@@ -19,7 +19,7 @@ Most of what's here started with "how does this actually work?" and ended with m
 - [backtest-engine](https://github.com/IkerAbad/backtest-engine): event-driven backtesting in Rust with Python strategies, built around catching look-ahead bias.
 - [risk-lab](https://github.com/IkerAbad/risk-lab), [market-sim](https://github.com/IkerAbad/market-sim) and [execution-simulator](https://github.com/IkerAbad/execution-simulator): VaR and CVaR, a toy agent-based market, and the cost of trading large orders.
 
-There is also a medieval real-time strategy game in C++, [cpp](https://github.com/IkerAbad/cpp), and the older coursework from my vocational years (Java, Android, Angular, Unity) is kept in a few repos so nothing gets lost.
+There is also a medieval real-time strategy game in C++, [cpp](https://github.com/IkerAbad/cpp), and the coursework from my vocational years is grouped by topic: [dam-acceso-datos](https://github.com/IkerAbad/dam-acceso-datos), [dam-android](https://github.com/IkerAbad/dam-android), [dam-psp](https://github.com/IkerAbad/dam-psp), [dam-wpf](https://github.com/IkerAbad/dam-wpf), [dam-fundamentos](https://github.com/IkerAbad/dam-fundamentos), [changeorg](https://github.com/IkerAbad/changeorg), [angular-ejercicios](https://github.com/IkerAbad/angular-ejercicios) and [unity-juegos](https://github.com/IkerAbad/unity-juegos).
 
 Away from the keyboard I'm teaching myself piano properly after years of getting by on slow reading and muscle memory, learning German, and working up to the Iliad.
 
